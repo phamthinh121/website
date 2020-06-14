@@ -1,0 +1,19 @@
+<button type="submit"><a href="/users/account">Back to Account</a></button>
+<h2> Your Profile</h2>
+<form action="/users" method="POST">
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" name="name" id="name" value="<%= name %>" disabled>
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="text" class="form-control" name="email" id="email" value="<%= email %>"disabled>
+  </div>
+  <div class="form-group">
+ <label for="age">password:</label>
+    <input type="password" class="form-control" name="password" id="password" value="<%=password %>"disabled>
+  </div>
+
+
+
+<p><a href="/users/edit-profile" target="_blank">Update your profile</a></p> 
